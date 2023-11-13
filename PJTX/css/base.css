@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'neon';
+    src: url('font/Maplestory_\ Light.otf') format('truetype');
+}
+
+* {
+    font-family: 'neon';
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    text-decoration: none;
+    background-color: inherit;
+    border: none;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*border: 0.125rem solid white;*/
+    padding: 0.5rem 1rem 0 1rem;
+}
+
+header > .home {
+    display: flex;
+    flex-direction: row;
+
+}
+
+header > .home > a {
+    display: flex;
+    flex-direction: row;
+}
+header > .home > a > * + * {
+    margin: 0 0 0 0.8rem;
+}
+
+header > .home > a > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header > .home > a > div > span {
+    font-size: 1.5rem;
+}
+
+header > .login {
+    padding: 0 0 0 0rem;
+}
+
+header > .menu > ul.menu {
+    display: flex;
+    flex-direction: row;
+
+    margin: 1rem 0 0 0;
+}
+
+header > .menu > ul.menu > * + * {
+    margin: 0 0 0 0.5rem;
+    padding: 0 0 0 0.5rem;
+    border-left: 0.0125rem solid white;
+}
+
+header > .menu > ul.menu > li {
+    font-size: 1.25rem;
+}
+header > .menu > ul.menu > li:hover {
+    cursor: pointer;
+}
+
+/*header > .home > {*/
+/*    font-size: 1.5rem;*/
+/*    height: 3rem;*/
+/*}*/
+
+
+header > .home > a > img.home_img {
+    width: 3rem;
+}
+
+header > .login > a > img {
+    width: 2.5rem;
+}

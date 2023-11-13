@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>membership</title>
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css"/>
+    <link href="/css/base.css" rel="stylesheet">
+    <link href="/css/main_membership.css" rel="stylesheet">
+    <link rel="icon" href="/Image/mail_logo.png"><!--파비콘-->
+    
+    <!-- <link href="/src/main/resources/static/resources/stylesheets/base.css" rel="stylesheet"> -->
+</head>
+<body>
+
+<header id="header"><!--상단바-->
+    <div class="home">
+        <a href="/home.html">
+            <img class="home_img" src="/Image/main_logo_white.png"><!--main 로고-->
+            <div>
+                <span>Dream</span>
+                <span>Catcher</span>
+            </div>
+        </a>
+    </div>
+
+    <div class="login">
+        <a href="/mypage.html">
+            <img src="/Image/main_mypage.png"><!--마이페이지-->
+        </a>
+    </div>
+
+    <div class="menu">
+        <ul class="menu">
+            <li>bucket-list</li><!--게시판-->
+        </ul>
+    </div>
+</header>
+
+<!--main 영역-->
+
+<div class="main_section">
+
+    <form name="sign_in_form" action="#" get="post">
+        <div class="box">
+            <div class="back_btn"> <!--뒤로가기 버튼-->
+                <img src="/Image/back_btn.png" width="30px" onclick="history.back()"/> <!--onClick javascript-->
+            </div>
+
+            <div class="membership_title"><!--회원가입 타이틀-->
+                회원가입
+            </div>
+
+            <label>
+                <div class="membership_email"><!--아이디(email) 작성칸-->
+                    <span><img class="mail_img" src="Image/mail_logo.png"><input class="input_membership" type="text" placeholder="abc@email.com"></span>
+                </div>
+            </label>
+
+            <label>
+                <div class="membership_pwd"><!--패스워드 작성칸-->
+                    <span><img class="pwd_img" src="Image/pwd_logo.png"><input class="input_membership" type="password" placeholder="****"></span>
+                </div>
+            </label>
+
+            <label>
+                <div class="membership_nickname"><!--닉네임 작성칸-->
+                    <span><img class="nickname_img" src="Image/user_logo.png"><input class="input_membership" type="text" placeholder="이강인"></span>
+                </div>
+            </label>
+
+            <label>
+                <div class="membership_confirm_email"><!--인증용 이메일 작성칸-->
+                    <span><img class="confirm_mail_logo" src="Image/mail_logo.png"><input class="input_membership" tpye="text" placeholder="인증용 이메일을 입력하세요."></span>
+                </div>
+            </label>    
+        </div>
+
+        <div class = "bt_wrap"><!--btn-->
+            <a href="#" class="on">가입하기</a>
+        </div>
+    </form>
+</div>
+
+
+<!--하단-->
+
+<footer class="footer">
+    <hr color="gray">
+    &copy; 2023. Team B2 all right reserved.
+</footer>
+
