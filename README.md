@@ -1,2 +1,2 @@
-# PJTX
->> ^_^
+# ProjectX_Daegu
+>
