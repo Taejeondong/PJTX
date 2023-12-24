@@ -9,7 +9,10 @@
   <p>● 기간에 맞춰 개발했던 것을 수정할 예정이에요.</p>
   <hr>
 <div align = center>
-  <img src="https://github.com/KwonDongIk/ProjectX_Daegu/assets/138635752/beb61942-0b78-4393-abc6-7f422e269466"><br>
+  <img src="https://github.com/KwonDongIk/ProjectX_Daegu/assets/138635752/e0bf2bf1-be2a-49f4-88b9-1a79eddb2f4f"><br>
+  <img src="logo2"><br>
+  <img src="logo3"><br>
+  <img src="logo4"><br>
   <p>⚠️ 로고는 개발 중 변경될 수 있어요.<br></p>
   <p>웹에도 사용될 수 있어요.</p>
   <p>모바일로 개발 시 스플래시 이미지와 아이콘으로 사용 할 예정이에요.<br></p>
