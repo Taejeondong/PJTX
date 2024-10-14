@@ -13,7 +13,7 @@
   <img src="https://github.com/KwonDongIk/ProjectX_Daegu/assets/138635752/36a08c26-2f51-4d14-81f8-7c33b89fc2ab">
   <img src="https://github.com/KwonDongIk/ProjectX_Daegu/assets/138635752/3e145da6-c33e-4abe-b2ff-3c6b12396e5b">
   <img src="https://github.com/KwonDongIk/ProjectX_Daegu/assets/138635752/34962b77-3bdf-409f-b575-69deadc8ee37" width="500px"><br>
-  <p>⚠️ 현재 업로드한 로고는 모두 사용하지 않을 수도 있어요.<br></p>
+  <p>⚠️ 현재 업로드한 로고는 모두 사용하지 않을 수도 있어요. ⚠️<br></p>
   <p>현재 로고는 교체할 예정이에요.</p>
   <p>모바일로 개발 시 스플래시 이미지와 아이콘으로 사용 할 예정이에요.<br></p>
 </div>
